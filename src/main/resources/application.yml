@@ -4,8 +4,8 @@ server:
 
 spring:
   application:
-    name: spring-boot-openshift-mql
+    name: spring-boot-openshift-mysql
   profiles:
     active:
-    - dev
+    - openshiftmysql
     
